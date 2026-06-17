@@ -31,7 +31,7 @@ In short: pasting feedback into a chat tool gives you an opinion about
 your data. This gives you a structured dataset derived from your data,
 which a Product Manager can sort, weight, and act on.
 
-## What changed from your first version, in plain terms
+## What changed from first version, in plain terms
 
 Your original app did this:
 1. Glue all the feedback comments together into one big block of text.
@@ -100,27 +100,6 @@ analyze." That distinction is the core of your portfolio answer to
    try it out, or use your own CSV as long as it has a column named
    exactly `Feedback`.
 
-## How to deploy it publicly (Streamlit Community Cloud)
-
-This is what gets you a live link to share, instead of asking people
-to run code locally.
-
-1. Push this project (`app.py`, `requirements.txt`,
-   `sample_feedback.csv`, `README.md`) to a GitHub repository. Do
-   **not** push your `secrets.toml` file or your API key. If you're
-   using Git, add a `.gitignore` file containing the line
-   `.streamlit/secrets.toml` so it never gets committed by accident.
-2. Go to share.streamlit.io and sign in with GitHub.
-3. Click "New app," select your repository, and set the main file
-   path to `app.py`.
-4. Before deploying, open "Advanced settings" and paste your API key
-   into the Secrets box, in the same format as your local file:
-   ```
-   OPENAI_API_KEY = "your-key-here"
-   ```
-5. Click Deploy. After a minute or two you'll get a public URL like
-   `https://your-app-name.streamlit.app` — that's your live demo link.
-
 ## Things worth knowing about how this behaves
 
 - **Batching:** feedback is classified in chunks of 20 rows per AI
@@ -135,9 +114,9 @@ to run code locally.
   (number of rows ÷ 20) calls. A 100-row CSV is about 6 calls total,
   not 100 — keeps cost and speed reasonable.
 
-## Natural next steps (for your portfolio story)
+## Natural next steps 
 
-- If your real feedback data has columns like customer tier, MRR, or
+- If real feedback data has columns like customer tier, MRR, or
   ticket severity, wire those into `calculate_priority()` so the
   priority score reflects business impact, not just raw frequency.
   This is flagged with a comment in the code already.

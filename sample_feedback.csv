@@ -1,0 +1,17 @@
+ticket_id,created_date,source,customer_email,plan_tier,Feedback,nps_score
+TICKET-10234,2026-05-01,support_ticket,jordan@acmecorp.com,Enterprise,"Dashboard takes forever to load when we have more than a few thousand rows, it's basically unusable for our team",
+TICKET-10235,2026-05-01,support_ticket,priya@northwind.io,Pro,"Is there any way to integrate this with Salesforce? We're manually exporting CSVs every week and it's killing us",
+TICKET-10236,2026-05-02,support_ticket,sam@brightleaf.com,Free,Login keeps timing out and I have to re-enter my password like 3 times,
+TICKET-10237,2026-05-02,support_ticket,dana@acmecorp.com,Enterprise,App crashed twice today while I was uploading a report. Lost my work both times. This is the third time this month,
+TICKET-10238,2026-05-03,support_ticket,leo@northwind.io,Pro,"thanks for fixing the export bug so fast, appreciate the quick turnaround",
+SURVEY-3301,2026-05-03,nps_survey,,Pro,,9
+SURVEY-3302,2026-05-03,nps_survey,,Free,Would be great to have dark mode,6
+SURVEY-3303,2026-05-04,nps_survey,,Enterprise,Honestly the reporting is too rigid we need more customization options for our exec dashboards,4
+SURVEY-3304,2026-05-04,nps_survey,,Pro,,8
+TICKET-10239,2026-05-05,support_ticket,maria@brightleaf.com,Free,can you add slack notifications when a ticket status changes,
+TICKET-10240,2026-05-05,support_ticket,jordan@acmecorp.com,Enterprise,"Following up on my earlier ticket - dashboard performance is still bad, this is becoming a blocker for renewal honestly",
+SURVEY-3305,2026-05-06,nps_survey,,Enterprise,Integration with HubSpot is the main thing missing for us right now,5
+TICKET-10241,2026-05-06,support_ticket,priya@northwind.io,Pro,nevermind figured it out myself,
+TICKET-10242,2026-05-07,support_ticket,sam@brightleaf.com,Free,"love the new search feature, so much faster than before",
+SURVEY-3306,2026-05-07,nps_survey,,Free,,3
+TICKET-10243,2026-05-08,support_ticket,dana@acmecorp.com,Enterprise,we need pdf export not just excel, our finance team needs pdf for compliance reasons,
